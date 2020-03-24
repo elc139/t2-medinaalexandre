@@ -72,12 +72,14 @@ Alexandre Moreira Medina - ELC139
 
     | tool     | nthreads | size    | repetitions | usec    | 
     |----------|----------|---------|-------------|---------| 
-    | Pthreads | 1        | 1000000 | 2000        | 6243630 | 
-    | Pthreads | 2        | 500000  | 2000        | 3146861 | 
-    | Pthreads | 4        | 250000  | 2000        | 1548837 | 
-    | Pthreads | 8        | 125000  | 2000        | 1203875 | 
-    | OpenMP   | 1        | 1000000 | 2000        |     -   | 
-    | OpenMP   | 2        | 500000  | 2000        |      -  | 
+    | Pthreads | 1        | 1000000 | 2000        | 6315601 | 
+    | Pthreads | 2        | 500000  | 2000        | 3127396 | 
+    | Pthreads | 4        | 250000  | 2000        | 1667020 | 
+    | Pthreads | 8        | 125000  | 2000        | 1351908 | 
+    | OpenMP   | 1        | 1000000 | 2000        | 6347033 | 
+    | OpenMP   | 2        | 500000  | 2000        | 3157049 | 
+    | OpenMP   | 4        | 250000  | 2000        | 1658924 | 
+    | OpenMP   | 8        | 125000  | 2000        | 1383142 | 
 
 5. Explique as diferenças entre pthreads_dotprod.c e pthreads_dotprod2.c. Com as linhas removidas, o programa está correto?
 
