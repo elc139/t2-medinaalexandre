@@ -1,0 +1,3 @@
+Processador: i5-8250U
+Memória: 8GB
+SO: Ubuntu 19.04
